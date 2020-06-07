@@ -1,0 +1,1 @@
+../../_common/Makefile-armv8-csme-simple

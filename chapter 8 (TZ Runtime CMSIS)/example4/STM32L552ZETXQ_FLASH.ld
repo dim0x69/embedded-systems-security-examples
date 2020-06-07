@@ -1,0 +1,1 @@
+../../_common/STM32L552ZETXQ_FLASH.ld
