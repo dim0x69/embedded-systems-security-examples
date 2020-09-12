@@ -1,0 +1,3 @@
+stm32l5xx_hal_rng_ex.c:102:19:HAL_RNGEx_SetConfig	32	static
+stm32l5xx_hal_rng_ex.c:197:19:HAL_RNGEx_GetConfig	24	static
+stm32l5xx_hal_rng_ex.c:246:19:HAL_RNGEx_LockConfig	24	static

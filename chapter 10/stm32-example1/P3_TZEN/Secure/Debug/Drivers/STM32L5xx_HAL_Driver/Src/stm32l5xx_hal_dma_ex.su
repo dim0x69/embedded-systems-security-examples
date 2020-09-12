@@ -1,0 +1,9 @@
+stm32l5xx_hal_dma_ex.c:116:19:HAL_DMAEx_MultiBufferStart	32	static
+stm32l5xx_hal_dma_ex.c:186:19:HAL_DMAEx_MultiBufferStart_IT	32	static
+stm32l5xx_hal_dma_ex.c:291:19:HAL_DMAEx_ChangeMemory	24	static
+stm32l5xx_hal_dma_ex.c:314:19:HAL_DMAEx_ConfigMuxSync	16	static
+stm32l5xx_hal_dma_ex.c:360:19:HAL_DMAEx_ConfigMuxRequestGenerator	16	static
+stm32l5xx_hal_dma_ex.c:399:19:HAL_DMAEx_EnableMuxRequestGenerator	16	static
+stm32l5xx_hal_dma_ex.c:427:19:HAL_DMAEx_DisableMuxRequestGenerator	16	static
+stm32l5xx_hal_dma_ex.c:455:6:HAL_DMAEx_MUX_IRQHandler	16	static
+stm32l5xx_hal_dma_ex.c:520:13:DMA_MultiBufferSetConfig	24	static

@@ -1,0 +1,4 @@
+partition_stm32l552xx.h:549:22:TZ_SAU_Setup	4	static
+system_stm32l5xx_s.c:225:6:SystemInit	8	static
+system_stm32l5xx_s.c:289:6:SystemCoreClockUpdate	32	static
+system_stm32l5xx_s.c:366:24:SECURE_SystemCoreClockUpdate	8	static

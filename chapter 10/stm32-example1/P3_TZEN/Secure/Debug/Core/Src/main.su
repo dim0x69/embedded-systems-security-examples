@@ -1,0 +1,13 @@
+main.c:76:24:SECURE_GenerateRandom	16	static
+main.c:84:20:SECURE_TransmitRandomUart	72	static
+main.c:93:6:TransmitCharPUart	24	static
+main.c:100:6:HAL_GTZC_TZIC_Callback	16	static
+main.c:113:5:main	8	static
+main.c:171:13:NonSecure_Init	24	static,ignoring_inline_asm
+main.c:191:6:SystemClock_Config	104	static
+main.c:246:13:MX_GTZC_Init	224	static
+main.c:336:13:MX_LPUART1_UART_Init	8	static
+main.c:384:13:MX_RNG_Init	8	static
+main.c:411:13:MX_RTC_Init	56	static
+main.c:465:13:MX_GPIO_Init	48	static
+main.c:509:6:Error_Handler	4	static
