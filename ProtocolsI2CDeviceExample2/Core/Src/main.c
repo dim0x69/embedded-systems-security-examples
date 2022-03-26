@@ -51,7 +51,6 @@ static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
 
 uint8_t receive_buffer[3];
-uint8_t doing_transmit = 0;
 
 /* USER CODE END PFP */
 
@@ -80,7 +79,6 @@ void HAL_I2C_AddrCallback(I2C_HandleTypeDef *hi2c1, uint8_t TransferDirection, u
 		  // doing_trasmit will be reset in the HAL_I2C_ErrorCallback.
 		  // The controller will stop receiving bytes by sending a NACK. This will result in a Error and
 		  // subsequently into a callback to HAL_I2C_ErrorCallback
-		  doing_transmit = 1;
 		  HAL_I2C_Slave_Seq_Transmit_IT(hi2c1, hi2c1->current_address, (uint16_t)0xFFFFF, I2C_FIRST_FRAME);
 	  }
 
