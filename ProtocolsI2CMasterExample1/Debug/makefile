@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
+# Toolchain: GNU Tools for STM32 (10.3-2021.10)
 ################################################################################
 
 -include ../makefile.init
@@ -43,6 +43,9 @@ BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ART
 EXECUTABLES += \
 ProtocolsI2CMasterExample1.elf \
 
+MAP_FILES += \
+ProtocolsI2CMasterExample1.map \
+
 SIZE_OUTPUT += \
 default.size.stdout \
 
@@ -60,7 +63,7 @@ all: main-build
 main-build: ProtocolsI2CMasterExample1.elf secondary-outputs
 
 # Tool invocations
-ProtocolsI2CMasterExample1.elf: $(OBJS) $(USER_OBJS) C:\Users\anmel\STM32\ProtocolsI2CMasterExample1\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+ProtocolsI2CMasterExample1.elf ProtocolsI2CMasterExample1.map: $(OBJS) $(USER_OBJS) C:\Users\anmel\STM32\ProtocolsI2CMasterExample1\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-gcc -o "ProtocolsI2CMasterExample1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\anmel\STM32\ProtocolsI2CMasterExample1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ProtocolsI2CMasterExample1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
@@ -82,7 +85,7 @@ ProtocolsI2CMasterExample1.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_
 
 # Other Targets
 clean:
-	-$(RM) ProtocolsI2CMasterExample1.bin ProtocolsI2CMasterExample1.elf ProtocolsI2CMasterExample1.list default.size.stdout
+	-$(RM) ProtocolsI2CMasterExample1.bin ProtocolsI2CMasterExample1.elf ProtocolsI2CMasterExample1.list ProtocolsI2CMasterExample1.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)

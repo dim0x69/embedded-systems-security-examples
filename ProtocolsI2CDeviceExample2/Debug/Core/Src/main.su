@@ -1,0 +1,8 @@
+../Core/Src/main.c:60:6:HAL_I2C_SlaveRxCpltCallback	24	static
+../Core/Src/main.c:78:6:HAL_I2C_AddrCallback	16	static
+../Core/Src/main.c:92:6:HAL_I2C_ErrorCallback	16	static
+../Core/Src/main.c:104:5:main	8	static
+../Core/Src/main.c:151:6:SystemClock_Config	72	static
+../Core/Src/main.c:188:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:222:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:251:6:Error_Handler	4	static,ignoring_inline_asm

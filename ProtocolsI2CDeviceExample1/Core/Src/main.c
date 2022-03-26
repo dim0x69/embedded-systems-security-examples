@@ -103,11 +103,7 @@ int main(void)
   {
 	  /* USER CODE END WHILE */
 	  HAL_I2C_Slave_Receive_IT(&hi2c1, message, 10);
-	  //	  HAL_StatusTypeDef receive = HAL_I2C_Slave_Receive(&hi2c1, message, 10, 5000);
-//	  if (receive == HAL_OK){
-//		  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-//	  }
-    /* USER CODE BEGIN 3 */
+	  /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
